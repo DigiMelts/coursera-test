@@ -38,3 +38,18 @@ git push
 git commit -m "My first page."
 -Commits all added files to local repository
 
+
+***Help Resources***
+StackOverflow.com
+    100% Going to use
+    Huge dev community
+    Always include your code, or find a pen to run in
+
+Jsfiddle.net
+    Write html, css, and jss in a file to send to someone online
+
+css-tricks.com
+    Fun css tricks
+
+Codepen
+    Write html, css, and jss in a file to send to someone online
