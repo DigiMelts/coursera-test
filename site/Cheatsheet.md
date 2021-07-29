@@ -8,6 +8,9 @@ goes 1 file up
 mkdir insertname
 creates folder with name
 
+*Browser-sync*
+browser-sync start --server --directory --files "*"
+searches all files for updates, creates local browser to view visual edits
 
 
 ***Git Actions***
