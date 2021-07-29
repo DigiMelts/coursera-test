@@ -32,6 +32,9 @@ git add filename/
 git add .
 -adds all files in folder to commit
 
+git push
+-pushes local commit (not final commit)
+
 git commit -m "My first page."
 -Commits all added files to local repository
 
