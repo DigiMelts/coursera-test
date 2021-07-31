@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Catamaran-VariableFont;
+    src: url(http://localhost:3000/Fonts\Catamaran-Variable\Catamaran-VariableFont_wght.ttf);
+  }
+  div {
+    font-family: Catamaran-VariableFont;
+  }
+
