@@ -6,66 +6,164 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="stylesheet.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-
     <script
       src="https://kit.fontawesome.com/674948443a.js"
       crossorigin="anonymous"
     ></script>
+    <script src="http://localhost:3000/theme.js"></script>
   </head>
   <header></header>
   <body>
-    <div class="header"></div>
-    <div class="body">
-      <h1>Digital Melts</h1>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste atque rem
-        rerum maiores assumenda, eos esse. Expedita, ab illum, corporis esse,
-        laborum nostrum totam explicabo harum fugit nihil dolorem omnis.
-      </p>
-    
-    <div class="container glass">
-      <h1 class="ll-title">Link List</h1>
-      <div class="g-links">
-        <div class="gl-box">
-          <button class="button button1">
-            <a href="http://localhost:3000/Templates/Buttons/ButtonList.html"
-              ><p>Button List</p></a
-            >
-          </button>
-          <button class="button button1">
-            <a href="http://localhost:3000/Templates/Flexbox/flexbox.html"
-              ><p>Flexbox</p></a
-            >
-          </button>
-          <button class="button button2">
-            <a
-              href="http://localhost:3000/Templates/Grid%20Layout/Grid%20Layout.html"
-              ><p>Grid Layout</p></a
-            >
-          </button>
+    <div class="topnav" id="myTopnav">
+      <a href="http://localhost:3000/index.html" class="active header-title"
+        >DIGITAL MELTS</a
+      >
+      <a href="http://localhost:3000/">Folders</a>
+      <a href="#contact">Contact</a>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Templates
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
         </div>
-        <div class="gl-box">
-          <button class="button button1">
-            <a href=""><p>Button List</p></a>
-          </button>
-          <button class="button button1">
-            <a href=""><p>Button List</p></a>
-          </button>
-          <button class="button button1">
-            <a href=""><p>Button List</p></a>
-          </button>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Projects
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+      <a href="#about">About</a>
+      <a
+        href="javascript:void(0);"
+        style="font-size: 15px"
+        class="icon"
+        onclick="myFunction()"
+        >&#9776;</a
+      >
+    </div>
+
+    <div class="body">
+      <div class="section">
+        <div class="header-message">
+          <h1>Digital Melts</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste atque
+            rem rerum maiores assumenda, eos esse. Expedita, ab illum, corporis
+            esse, laborum nostrum totam explicabo harum fugit nihil dolorem
+            omnis.
+          </p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container glass">
+          <h1 class="ll-title">Link List</h1>
+          <div class="g-links">
+            <div class="gl-box">
+              <button class="button button1">
+                <a
+                  href="http://localhost:3000/Templates/Buttons/ButtonList.html"
+                  ><p>Button List</p></a
+                >
+              </button>
+              <button class="button button1">
+                <a href="http://localhost:3000/Templates/Flexbox/flexbox.html"
+                  ><p>Flexbox</p></a
+                >
+              </button>
+              <button class="button button2">
+                <a
+                  href="http://localhost:3000/Templates/Grid%20Layout/Grid%20Layout.html"
+                  ><p>Grid Layout</p></a
+                >
+              </button>
+            </div>
+            <div class="gl-box">
+              <button class="button button1">
+                <a href=""><p>Button List</p></a>
+              </button>
+              <button class="button button1">
+                <a href=""><p>Button List</p></a>
+              </button>
+              <button class="button button1">
+                <a href=""><p>Button List</p></a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="yellow-box">
+          <div class="yb-img">
+            <img
+              src="http://localhost:3000/images/georgie-cobbs-muOHbrFGEQY-unsplash.jpg"
+              alt="Yellow image"
+            />
+          </div>
+          <div class="yb-block">
+            <div class="yb-text">
+              <h2>Easy, Functioning, Web-Design</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="image-with-text">
+          <div class="image-with-text-box">
+            <img
+              src="http://localhost:3000/images/lerone-pieters-uZKH42DEC6M-unsplash.jpg"
+            />
+          </div>
+          <div class="image-with-text-box">
+            <h2>City Sky, At Nigh we Fly</h2>
+            <p>
+              <b>This Section uses a mix of flexbox and css effects.</b> Lorem
+              ipsum, dolor sit amet consectetur adipisicing elit. Nulla,
+              exercitationem?
+              <span class="hide-mobile"
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+                maiores expedita nostrum a aspernatur quibusdam blanditiis
+                numquam quae error ipsa.</span
+              >
+            </p>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="">
-      <h1>Hello World!</h1>
-      <p class="small-text">Eat ass & skate fast.</p>
+    <div class="section">
+      <div class="personal-img-txt">
+        <div class="pit-img">
+          <div class="pit-img-crc">
+            <img src="" alt="" />
+            <div class="pit-overlay">
+              <div class="pit-text">Digital Melts</div>
+            </div>
+          </div>
+        </div>
+        <div class="pit-about">
+          <h2>About Me</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus
+            vero tenetur eligendi architecto quia, sunt eos nulla nesciunt culpa
+            fuga quod exercitationem! Quaerat maiores optio quae ea ullam
+            aliquid vitae.
+          </p>
+        </div>
+      </div>
     </div>
-</div>
+    <div class="footer">
+      <p>Footer</p>
+    </div>
   </body>
 </html>
