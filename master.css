@@ -1,14 +1,9 @@
 /* Master CSS */
-@font-face {
-  font-family: "Montserrat";
-}
 body {
-  /* background: url(http://localhost:3000/images/eugenio-pastoral-0gTtEsOBJDo-unsplash.jpg) no-repeat;
-      background-attachment: fixed; 
-      background-size: cover; */
   background-color: white;
   font-family: "Montserrat", sans-serif;
   margin: 0px;
+  width: 100%;
 }
 h1,
 h2,
@@ -144,6 +139,7 @@ p {
 .container {
   position: relative;
   min-height: 100vh;
+  width: 100%;
 }
 @media screen and (max-width: 1200px) {
 }

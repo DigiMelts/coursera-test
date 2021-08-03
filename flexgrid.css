@@ -1,0 +1,50 @@
+.flex-grid-card {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.fg-card {
+  width: 200px;
+  margin: 30px;
+  transition: 0.3s;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.fgc-top {
+  width: 100%;
+}
+.fgc-bot {
+  padding: 2px 15px;
+  text-align: center;
+}
+.fgc-bot p {
+  color: #696969;
+}
+.fgc-btn{
+    background-color: #1b1b1b;
+    width: 100%;
+    text-align: center;
+    transition: 0.4s;
+}
+div.fgc-btn > a:link, div.fgc-btn > a:visited{
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.4s;
+}
+.fgc-btn:hover{
+    background-color: #9c9c9c;
+    width: 100%;
+    text-align: center;
+}
+div.fgc-btn > a:hover{
+    text-decoration: none;
+    color: #1b1b1b;
+
+}
+.fg-card:hover {
+    margin-top: 10px;
+  }
+  
