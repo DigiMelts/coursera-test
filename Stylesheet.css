@@ -1,10 +1,6 @@
 /* This sets the font */
 @font-face {
-  font-family: Catamaran-VariableFont_wght;
-  src: url(http://localhost:3000/Fonts/Catamaran-Variable/Catamaran-VariableFont_wght.ttf);
-}
-div {
-  font-family: Catamaran-VariableFont_wght;
+  font-family: "Montserrat";
 }
 
 /* This is the mirror effect */
@@ -13,7 +9,7 @@ body {
     background-attachment: fixed; 
     background-size: cover; */
   background-color: white;
-  font-family: Catamaran-VariableFont;
+  font-family: "Montserrat", sans-serif;
   margin: 0px;
 }
 h1,
